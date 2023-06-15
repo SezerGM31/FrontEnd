@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two&family=Open+Sans:ital,wght@1,300&family=Quicksand&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <style>
+              * {padding: 0; margin: 0}
+              @media (max-width: 450px) {
+                .wrapper {
+                
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 1em;
+                grid-auto-rows: 150px;
+              }
+
+              }
+
+
+              .wrapper {
+                
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 1em;
+                grid-auto-rows: 150px;
+              }
+              .wrapper > div {
+                padding: 1em;
+                background-color: aqua;
+
+              }
+              .wrapper > div.light {
+                padding: 1em;
+                background-color: aquamarine;
+              }
+
+              .header {
+                /*background-color: black;*/
+                display: grid;
+                grid-auto-rows: 300px;
+                grid-gap: 1em;
+                
+                background: url(Header.png) no-repeat;
+                background-size: cover;
+                }
+                
+              
+              
+              .footer {
+                background-color: black;
+                display: grid;
+                grid-auto-rows: 50px;
+                
+              }
+              .footerText {
+                text-align: center;
+                top: 50%;
+                color: white;
+              }
+
+              .content2 {
+              
+                background-color: black;
+                display: grid;
+                grid-auto-rows: 200px;
+                grid-gap: 1em;
+                background: url(Screenshot_241.png) no-repeat;
+                background-size: cover;
+              }
+              img {
+
+                width: 100%;
+                height: 100%;
+                object-fit: cover;	
+              }
+        </style>
+ 
+        <title>CSS Grids Gallery</title>
+    </head>
+    <body>
+      <div class="header">
+        .
+
+      </div>
+
+      <div class="wrapper">
+        <div class="light">header</div>
+        <div class="light">two</div>
+        <div class="light">three</div>
+        <div class="light">four</div>
+        <div class="light">One</div>
+        <div class="light">Two</div>
+        <div class="light">Three</div>
+        <div class="light">Four</div>
+        <div class="light">Five</div>
+        
+
+      </div>
+
+      <div class="content2">
+        .
+
+      </div>
+
+      <div class="footer">
+        <p class="footerText">@ Все права защищены 2020
+ 
+      </div>
+    </body>
+</html>
